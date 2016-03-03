@@ -1,0 +1,29 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  description: "Initial Balance"
+  recipient: "Red Hat"
+  activity: "Credit"
+  amount: 1500.00
+  balance: 0.00
+
+two:
+  description: "PlayStation 4"
+  recipient: "Sony"
+  activity: "Debit"
+  amount: 360.00
+  balance: 0.00
+
+three:
+  description: "Dinner"
+  recipient: "Mateos"
+  activity: "Debit"
+  amount: 50.00
+  balance: 0.00
+
+four:
+  description: "Rent"
+  recipient: "Landlord"
+  activity: "Debit"
+  amount: 500.00
+  balance: 0.00
