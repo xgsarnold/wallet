@@ -1,28 +1,15 @@
-== README
+#Wallet:
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This app was created for an assignment meant to teach students how to interact with MVC architecture and Rails features like scaffolding.
 
-Things you may want to cover:
+This app allows users to view their balance, total transactions, total amount spent, and biggest purchase on a dashboard page. From the dashboard, users will be able to navigate to a list of all their transactions and to a form to create new transactions for the database. In the list of transactions users can also edit previous transactions.
 
-* Ruby version
+#Goals:
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-
-
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+-Estimation: 6 hours
+-Delivered: 8 hours
+-Understand how to create a complete Rails app (with one database table)
+-Understand all components of the MVC architecture
+-Understand basic HTML forms
+-Create and use an ActiveRecord model, a controller, multiple views, and a router.
+-Create and use a Rails scaffold
