@@ -23,7 +23,7 @@ class TransactionTest < ActiveSupport::TestCase
     assert_equal 500.00, Transaction.biggest_debit
   end
 
-  # test "return recipient to whom user has spent most money" do
-  #   assert_equal "Landlord", Transaction.richest_dealer
-  # end
+  test "return recipient to whom user has spent most money" do
+    assert_equal "Landlord", Transaction.richest_dealer
+  end
 end

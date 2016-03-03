@@ -36,7 +36,16 @@ class Transaction < ActiveRecord::Base
     a.sort.last
   end
 
+  # def self.richest_dealer
+  #   @dealers = {}
+  #   debits.each do |d|
+  #     @dealers[d.amount] = d.recipient
+  #   end
+  #   @dealers.values.max
+  #   # debits.sort[0].recipient
+  # end
+
   def self.richest_dealer
-    debits.sort[0].recipient
+    where(activity: "Debit").group(:recipient).order("SUM(amount) DESC").first.recipient
   end
 end
