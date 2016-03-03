@@ -29,10 +29,14 @@ class Transaction < ActiveRecord::Base
   end
 
   def self.biggest_debit
-    debits.sort.last.amount
+    a = []
+    debits.each do |d|
+      a << d.amount
+    end
+    a.sort.last
   end
 
   def self.richest_dealer
-    debits.sort.last.recipient
+    debits.sort[0].recipient
   end
 end
