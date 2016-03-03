@@ -1,0 +1,12 @@
+<h1>Welcome To The Wallet Dashboard!</h1>
+<p>Below you can see your money and transactions as well as create new ones.</p>
+
+<div>
+  <p>Current Balance: $<%=@total_balance%></p>
+  <p>Total Transactions: <%=@total_transactions%></p>
+  <p>Total Spent: $<%=@total_spent%></p>
+  <p>Biggest Purchase: $<%=@biggest_debit%></p>
+  <p>Your Favorite Dealer: <%=@richest_dealer%></p>
+  <p>Find a list of your transactions <%= link_to "here", transactions_path %></p>
+  <p>Create a new transaction <%= link_to "here", new_transaction_path %></p>
+</div>

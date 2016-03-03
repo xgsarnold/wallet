@@ -24,7 +24,15 @@ class Transaction < ActiveRecord::Base
     end
   end
 
-  def self.total_transactions_now
+  def self.total_transactions
     self.count
+  end
+
+  def self.biggest_debit
+    debits.sort.last.amount
+  end
+
+  def self.richest_dealer
+    debits.sort.last.recipient
   end
 end
