@@ -6,10 +6,10 @@ This app allows users to view their balance, total transactions, total amount sp
 
 #Goals:
 
--Estimation: 6 hours
--Delivered: 8 hours
--Understand how to create a complete Rails app (with one database table)
--Understand all components of the MVC architecture
--Understand basic HTML forms
--Create and use an ActiveRecord model, a controller, multiple views, and a router.
--Create and use a Rails scaffold
+*Estimation: 6 hours
+*Delivered: 8 hours
+*Understand how to create a complete Rails app (with one database table)
+*Understand all components of the MVC architecture
+*Understand basic HTML forms
+*Create and use an ActiveRecord model, a controller, multiple views, and a router.
+*Create and use a Rails scaffold
